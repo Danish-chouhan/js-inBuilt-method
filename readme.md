@@ -16,3 +16,5 @@
 ---
 [Array-FindLastIndex-Method](./js/array-findLastIndex-method.js)
 ---
+[Array-entries-Method](./js/array-entries-method.js)
+---
