@@ -12,3 +12,6 @@
 ---
 [Array-findIndex-Method](./js/array-findIndex-method.js)
 ---
+[Array-FindLast-Method](./js/array-findLast-method.js)
+---
+
