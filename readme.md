@@ -14,4 +14,5 @@
 ---
 [Array-FindLast-Method](./js/array-findLast-method.js)
 ---
-
+[Array-FindLastIndex-Method](./js/array-findLastIndex-method.js)
+---
