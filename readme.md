@@ -4,3 +4,5 @@
 ---
 [array-concat-method](./js/array-concat-method.js)
 ---
+[array-every-method](./js/array-every-method.js)
+---
