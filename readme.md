@@ -18,3 +18,5 @@
 ---
 [Array-entries-Method](./js/array-entries-method.js)
 ---
+[Array-fillte-Method](./js/array-fillter-method.js)
+---
