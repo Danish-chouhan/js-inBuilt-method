@@ -2,3 +2,5 @@
 ---
 [array-at-method](./js/array-at-method.js)
 ---
+[array-concat-method](./js/array-concat-method.js)
+---
