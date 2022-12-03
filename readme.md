@@ -8,3 +8,5 @@
 ---
 [Array-Fill-Method](./js/array-fill-method.js)
 ---
+[Array-find-Method](./js/array-find-method.js)
+---
