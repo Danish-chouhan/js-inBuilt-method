@@ -20,3 +20,5 @@
 ---
 [Array-fillte-Method](./js/array-fillter-method.js)
 ---
+[Array-for-each-methods](./js/arrays-forEach-method.js)
+---
