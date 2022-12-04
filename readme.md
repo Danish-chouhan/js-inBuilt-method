@@ -22,3 +22,5 @@
 ---
 [Array-for-each-methods](./js/arrays-forEach-method.js)
 ---
+[Array-include-Method](./js/arrays-include-method.js)
+---
