@@ -38,3 +38,5 @@
 ---
 [Array-pop-Method](./js/Array-pop-method.js)
 ---
+[Array-push-Method](./js/Array-push-method.js)
+---
