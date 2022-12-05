@@ -30,3 +30,7 @@
 ---
 [Array-join-Method](./js/Array-join-method.js)
 ---
+[Array-key-Method](./js/Array-key-method.js)
+---
+[Array-lastIndexOf-Method](./js/Array-lastIndexOf-method.js)
+---
