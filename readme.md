@@ -34,3 +34,7 @@
 ---
 [Array-lastIndexOf-Method](./js/Array-lastIndexOf-method.js)
 ---
+[Array-map-Method](./js/Array-map-method.js)
+---
+[Array-pop-Method](./js/Array-pop-method.js)
+---
