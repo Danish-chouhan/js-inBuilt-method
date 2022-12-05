@@ -26,3 +26,5 @@
 ---
 [Array-indexOf-Method](./js/array-indexOf-method.js)
 ---
+[Array-isArray-Method](./js/Array-isArray-methods.js)
+---
