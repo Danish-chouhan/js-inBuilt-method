@@ -20,7 +20,9 @@
 ---
 [Array-fillte-Method](./js/array-fillter-method.js)
 ---
-[Array-for-each-methods](./js/arrays-forEach-method.js)
+[Array-for-each-Method](./js/arrays-forEach-method.js)
 ---
 [Array-include-Method](./js/arrays-include-method.js)
+---
+[Array-indexOf-Method](./js/array-indexOf-method.js)
 ---
