@@ -8,6 +8,8 @@
 ---
 [Array-Fill-Method](./js/array-fill-method.js)
 ---
+[Array-Filter-Method](./js/array-fillter-method.js)
+---
 [Array-Find-Method](./js/array-find-method.js)
 ---
 [Array-findIndex-Method](./js/array-findIndex-method.js)
@@ -16,9 +18,9 @@
 ---
 [Array-FindLastIndex-Method](./js/array-findLastIndex-method.js)
 ---
-[Array-entries-Method](./js/array-entries-method.js)
+[Array-Flat-Method](./js/Array-flat-method.js)
 ---
-[Array-fillte-Method](./js/array-fillter-method.js)
+[Array-FlatMap-Method](./js/Array-flatMap-method.js)
 ---
 [Array-for-each-Method](./js/arrays-forEach-method.js)
 ---
