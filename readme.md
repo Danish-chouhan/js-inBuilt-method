@@ -28,3 +28,5 @@
 ---
 [Array-isArray-Method](./js/Array-isArray-methods.js)
 ---
+[Array-join-Method](./js/Array-join-method.js)
+---
