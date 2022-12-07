@@ -1,6 +1,5 @@
-const array1 = ['a', 'b', 'c'];
-const iterator = array1.keys();
+var a = ["a","b","c","d"]
 
-for (const key of iterator) {
-  document.write(key + "<br>");
+for(var b in a){
+  document.write(b + "<br>")
 }

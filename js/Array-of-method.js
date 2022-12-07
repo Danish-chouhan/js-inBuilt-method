@@ -1,2 +1,1 @@
-Array.of(7); // [7]
-Array(7)
+console.log(Array.of(7,1,2,3,4,5));
