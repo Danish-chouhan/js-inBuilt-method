@@ -1,5 +1,5 @@
 function a(name){
-    this.Name = name;
+    this.Name = name
 };
 var b = new a("Danish-chouhan");
 a.prototype.toString = function(){
