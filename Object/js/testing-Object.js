@@ -8,12 +8,8 @@
 // b.isHuman = true;
 // b.PI()
 
-var a ={}
-Object.defineProperties(a ,{
-    aa :{
-        age : 17,
-        name : "Danish-chouhan"
-    },
-    bb :{}
-})
-document.write(a.aa)
+var a = {
+    age : 17,
+    class : "11th"
+};
+document.write(Object.values(a))
