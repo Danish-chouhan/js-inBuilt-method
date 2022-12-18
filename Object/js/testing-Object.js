@@ -47,9 +47,16 @@
 // var b = Object.fromEntries(a)
 // console.log(b);
 
+// var a = {
+//     name : "Danish-chouhan"
+// };
+// var b = Object.getOwnPropertyDescriptor(a , 'name');
+// document.write(b.configurable)
+// document.write(b.value)
+
 var a = {
     name : "Danish-chouhan"
 };
-var b = Object.getOwnPropertyDescriptor(a , 'name');
-document.write(b.configurable)
-document.write(b.value)
+var b = Object.getOwnPropertyDescriptors(a)
+document.write(b.name.writable)
+document.write(b.name.value)
