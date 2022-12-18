@@ -34,9 +34,16 @@
 //     document.write(`${key} ${value}`)
 // }
 
-var a = {
-    name : "Danish-chouhan"
-};
-Object.freeze(a)
-a.name = "chouhan";
-document.write(a.name)
+// var a = {
+//     name : "Danish-chouhan"
+// };
+// Object.freeze(a)
+// a.name = "chouhan";
+// document.write(a.name)
+
+var a = new Map([
+    ['name' , 'Danish'],
+    ['age' , 17]
+]);
+var b = Object.fromEntries(a)
+console.log(b)
