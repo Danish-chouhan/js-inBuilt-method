@@ -85,8 +85,15 @@
 // Object.freeze(a)
 // document.write(Object.isFrozen(a))
 
+// var a = {
+//     name : "Danish-chouhan"
+// };
+// Object.seal(a)
+// document.write(Object.isSealed(a))
+
 var a = {
-    name : "Danish-chouhan"
+    aa : 1,
+    bb : 2,
+    cc :3
 };
-Object.seal(a)
-document.write(Object.isSealed(a))
+document.write(Object.keys(a))
