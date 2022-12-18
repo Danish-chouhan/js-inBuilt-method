@@ -75,6 +75,12 @@
 // document.write(Object.hasOwn(a,"name"))
 // document.write(Object.hasOwn(a , "class"))
 
-var a = {}
-a.name = "Danish-chouhan"
-document.write(a.hasOwnProperty('name'))
+// var a = {}
+// a.name = "Danish-chouhan"
+// document.write(a.hasOwnProperty('name'))
+
+var a = {
+    name : "Danish-chouhan"
+};
+Object.freeze(a)
+document.write(Object.isFrozen(a))
