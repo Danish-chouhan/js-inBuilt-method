@@ -20,7 +20,6 @@
 //     }
 // });
 // document.write(a.p3)
-
 // var a = {}
 // Object.defineProperty(a , 'p1',{
 //     value : 17
@@ -41,9 +40,16 @@
 // a.name = "chouhan";
 // document.write(a.name)
 
-var a = new Map([
-    ['name' , 'Danish'],
-    ['age' , 17]
-]);
-var b = Object.fromEntries(a)
-console.log(b)
+// var a = new Map([
+//     ['name' , 'Danish'],
+//     ['age' , 17]
+// ]);
+// var b = Object.fromEntries(a)
+// console.log(b);
+
+var a = {
+    name : "Danish-chouhan"
+};
+var b = Object.getOwnPropertyDescriptor(a , 'name');
+document.write(b.configurable)
+document.write(b.value)
