@@ -69,8 +69,12 @@
 // var b = Object.fromEntries(a)
 // document.write(b)
 
-var a = {
-    name : "Danish-chouhan"
-};
-document.write(Object.hasOwn(a,"name"))
-document.write(Object.hasOwn(a , "class"))
+// var a = {
+//     name : "Danish-chouhan"
+// };
+// document.write(Object.hasOwn(a,"name"))
+// document.write(Object.hasOwn(a , "class"))
+
+var a = {}
+a.name = "Danish-chouhan"
+document.write(a.hasOwnProperty('name'))
