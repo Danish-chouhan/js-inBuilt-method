@@ -79,8 +79,14 @@
 // a.name = "Danish-chouhan"
 // document.write(a.hasOwnProperty('name'))
 
+// var a = {
+//     name : "Danish-chouhan"
+// };
+// Object.freeze(a)
+// document.write(Object.isFrozen(a))
+
 var a = {
     name : "Danish-chouhan"
 };
-Object.freeze(a)
-document.write(Object.isFrozen(a))
+Object.seal(a)
+document.write(Object.isSealed(a))
