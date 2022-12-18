@@ -98,11 +98,20 @@
 // };
 // document.write(Object.keys(a))
 
-function person(name){
-    this.name = name
+// function person(name){
+//     this.name = name
+// };
+// var a = new person("Danish-chouhan");
+// person.prototype.toString = function pts(){
+//     return `hlw my name is ${this.name}`
+// };
+// document.write(a.toString());
+
+function num(n){
+    this.number = n
 };
-var a = new person("Danish-chouhan");
-person.prototype.toString = function pts(){
-    return `hlw my name is ${this.name}`
+num.prototype.valueOf = function(){
+    return this.number
 };
-document.write(a.toString())
+var a = new num(10);
+document.write(a + 10)
