@@ -26,10 +26,17 @@
 //     value : 17
 // });
 // document.write(a.p1)
+// var a = {
+//     aa : 17,
+//     bb : "Danish-chouhan"
+// }
+// for(var [key,value] of Object.entries(a)){
+//     document.write(`${key} ${value}`)
+// }
+
 var a = {
-    aa : 17,
-    bb : "Danish-chouhan"
-}
-for(var [key,value] of Object.entries(a)){
-    document.write(`${key} ${value}`)
-}
+    name : "Danish-chouhan"
+};
+Object.freeze(a)
+a.name = "chouhan";
+document.write(a.name)
