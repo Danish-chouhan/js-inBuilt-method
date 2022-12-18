@@ -54,9 +54,17 @@
 // document.write(b.configurable)
 // document.write(b.value)
 
+// var a = {
+//     name : "Danish-chouhan"
+// };
+// var b = Object.getOwnPropertyDescriptors(a)
+// document.write(b.name.writable)
+// document.write(b.name.value)
+
 var a = {
-    name : "Danish-chouhan"
+    name : "Danish-chouhan",
+    age : 17,
+    class : "11th"
 };
-var b = Object.getOwnPropertyDescriptors(a)
-document.write(b.name.writable)
-document.write(b.name.value)
+var b = Object.getOwnPropertyNames(a)
+document.write(b);
