@@ -91,9 +91,18 @@
 // Object.seal(a)
 // document.write(Object.isSealed(a))
 
-var a = {
-    aa : 1,
-    bb : 2,
-    cc :3
+// var a = {
+//     aa : 1,
+//     bb : 2,
+//     cc :3
+// };
+// document.write(Object.keys(a))
+
+function person(name){
+    this.name = name
 };
-document.write(Object.keys(a))
+var a = new person("Danish-chouhan");
+person.prototype.toString = function pts(){
+    return `hlw my name is ${this.name}`
+};
+document.write(a.toString())
