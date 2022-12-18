@@ -40,13 +40,6 @@
 // a.name = "chouhan";
 // document.write(a.name)
 
-// var a = new Map([
-//     ['name' , 'Danish'],
-//     ['age' , 17]
-// ]);
-// var b = Object.fromEntries(a)
-// console.log(b);
-
 // var a = {
 //     name : "Danish-chouhan"
 // };
@@ -61,10 +54,23 @@
 // document.write(b.name.writable)
 // document.write(b.name.value)
 
+// var a = {
+//     name : "Danish-chouhan",
+//     age : 17,
+//     class : "11th"
+// };
+// var b = Object.getOwnPropertyNames(a)
+// document.write(b);
+
+// var a = new Map([
+//     ['name' , 'Danish-chouhan'],
+//     ['age' , 17]
+// ])
+// var b = Object.fromEntries(a)
+// document.write(b)
+
 var a = {
-    name : "Danish-chouhan",
-    age : 17,
-    class : "11th"
+    name : "Danish-chouhan"
 };
-var b = Object.getOwnPropertyNames(a)
-document.write(b);
+document.write(Object.hasOwn(a,"name"))
+document.write(Object.hasOwn(a , "class"))
