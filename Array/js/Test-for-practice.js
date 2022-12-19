@@ -24,6 +24,10 @@
 // }
 // document.write(b)
 
-var a = [1,2,3,4,5];
-var b = a.fill(10,2,4)
+// var a = [1,2,3,4,5];
+// var b = a.fill(10,2,4)
+// document.write(b)
+
+var a = ["Danish-chouhan" , "fayyaz" , "uzair"];
+var b = a.filter(Element => Element.length > 6)
 document.write(b)
