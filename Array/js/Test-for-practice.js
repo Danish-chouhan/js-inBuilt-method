@@ -54,9 +54,12 @@
 // }
 // document.write(b)
 
-var a = [1,2,3,4,5,6]
-var b = a.findLastIndex(dan)
-function dan(x){
-    return x > 1
-}
-document.write(b)
+// var a = [1,2,3,4,5,6]
+// var b = a.findLastIndex(dan)
+// function dan(x){
+//     return x > 1
+// }
+// document.write(b)
+
+var a = [1,2,3,[[[[5]]]]]
+document.write(a.flat(Infinity))
