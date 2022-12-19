@@ -4,6 +4,10 @@
 // var a =[1,2,3,4,5];
 // document.write(a.at(4));
 
-var a = [1,2,3];
-var b = [4,5,6];
-document.write(a.concat(b))
+// var a = [1,2,3];
+// var b = [4,5,6];
+// document.write(a.concat(b))
+
+// var a = [1,2,3,4,5];
+// var b = a.copyWithin(2,3,5)
+// document.write(b)
