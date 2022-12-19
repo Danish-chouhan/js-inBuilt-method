@@ -61,5 +61,11 @@
 // }
 // document.write(b)
 
-var a = [1,2,3,[[[[5]]]]]
-document.write(a.flat(Infinity))
+// var a = [1,2,3,[[[[5]]]]]
+// document.write(a.flat(Infinity))
+
+var a = [1,2,[3],4,[5,6]]
+
+var fn = a.flatMap(num => num)
+
+document.write(fn)
