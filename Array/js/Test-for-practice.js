@@ -11,3 +11,8 @@
 // var a = [1,2,3,4,5];
 // var b = a.copyWithin(2,3,5)
 // document.write(b)
+
+var a = [1,2,3,4,5,6]
+var b = a.entries()
+document.write(b.next().value)
+document.write(b.next().value)
