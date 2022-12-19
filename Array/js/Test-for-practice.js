@@ -12,7 +12,14 @@
 // var b = a.copyWithin(2,3,5)
 // document.write(b)
 
-var a = [1,2,3,4,5,6]
-var b = a.entries()
-document.write(b.next().value)
-document.write(b.next().value)
+// var a = [1,2,3,4,5,6]
+// var b = a.entries()
+// document.write(b.next().value)
+// document.write(b.next().value)
+
+var a = [1,2,3,4,5,6,7,8,9,10];
+var b = a.every(dan)
+function dan(x){
+    return x < 11
+}
+document.write(b)
