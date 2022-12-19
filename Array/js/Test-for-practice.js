@@ -74,3 +74,4 @@
 // var b = a.forEach(Element => document.write(Element[0]))
 // document.write(b)
 
+document.write(Array.from("Danish"))
