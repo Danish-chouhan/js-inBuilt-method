@@ -40,9 +40,23 @@
 // document.write(b)
 
 
+// var a = [1,2,3,4,5,6]
+// var b = a.findIndex(dan)
+// function dan(x){
+//     return x > 1
+// }
+// document.write(b)
+
 var a = [1,2,3,4,5,6]
-var b = a.findIndex(dan)
+var b = a.findLast(dan)
 function dan(x){
     return x > 1
 }
 document.write(b)
+
+// var a = [1,2,3,4,5,6]
+// var b = a.findIndex(dan)
+// function dan(x){
+//     return x > 1
+// }
+// document.write(b)
