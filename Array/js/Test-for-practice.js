@@ -16,9 +16,12 @@
 // document.write(b.next().value)
 // document.write(b.next().value)
 
+// var a = [1,2,3,4,5,6,7,8,9,10]
+// var b = a.every(dan)
+// function dan(x){
+//     return x < 11
+// }
+// document.write(b)
+
 var a = [1,2,3,4,5,6,7,8,9,10]
-var b = a.every(dan)
-function dan(x){
-    return x < 11
-}
-document.write(b)
+document.write(a.fill(11,3,6))
